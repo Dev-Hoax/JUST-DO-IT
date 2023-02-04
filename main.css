@@ -161,10 +161,12 @@ main {
 	color: crimson;
 }
 .back-video{
-	position: absolute;
+	background-attachment: fixed;
+    background-size: 100% 100%;
+	position: fixed;
 	right: 0;
 	bottom: 0;
-	z-index: -1;
+	z-index: -20;
 	}
 @media (min-aspect-ratio: 16/9){
 	.back-video{
